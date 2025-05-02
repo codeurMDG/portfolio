@@ -1,5 +1,6 @@
 ---
 import Button from "../components/button.astro";
+import About from "../components/home/about.astro";
 import Projects from "../components/home/projects.astro";
 import Separator from "../components/home/separator.astro";
 import Writings from "../components/home/writings.astro";
@@ -57,6 +58,8 @@ import Layout from "../layouts/main.astro";
     </div>
   </div>
 
+  <Separator text="Qui je suis ?" />
+  <About />
   <Separator text="Découvrez mes réalisations" />
   <Projects />
   <Separator text="Découvrez mes articles" />

@@ -1,4 +1,5 @@
 ---
+import About from "../components/about.astro";
 import Button from "../components/button.astro";
 import Projects from "../components/home/projects.astro";
 import Separator from "../components/home/separator.astro";
@@ -18,7 +19,7 @@ import Layout from "../layouts/main.astro";
           Rova Fiti
         </h1>
         <p class="mb-6 text-base text-neutral-600 dark:text-neutral-400">
-          Un développeur front , webmaster et expert en WordPress et SEO
+          Un développeur front-end , webmaster et <br/> expert en WordPress et SEO
         </p>
         <div class="flex items-center gap-3">
           <Button text="Mes réalisations" link="https://x.com/0xKaiBi" />
@@ -58,8 +59,30 @@ import Layout from "../layouts/main.astro";
     </div>
   </div>
 
+  <Separator text="Qui suis-je ?" />
+  <About />
   <Separator text="Check out my projects" />
   <Projects />
   <Separator text="Some of my writing" />
-  <Writings />
+
+  <div class="w-full max-w-4xl mx-auto mt-16 px-7 md:mt-24 lg:mt-32 xl:px-0">
+    <h2
+        class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
+      >
+        Travaillons ensemble
+      </h2>
+      <p
+        class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
+      >
+        If you want to stay up to date with my work be sure to <a
+          href="https://x.com/0xKaibi"
+          target="_blank"
+          class="text-indigo-600 underline">follow me on twitter</a
+        >, or you can send me an <a
+          href="mailto:astro-aria#miantiao.me"
+          class="text-indigo-600 underline">email</a
+        > and I'll be sure to get back to you.
+      </p>
+  </div>
+
 </Layout>

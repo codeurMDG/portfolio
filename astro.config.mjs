@@ -4,7 +4,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-    site: "https://portfolio.netlify.app",
+    site: "https://rovafiti.netlify.app",
     trailingSlash: "always",
     build: {
         assetsPrefix: "./"

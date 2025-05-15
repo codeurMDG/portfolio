@@ -1,23 +1,20 @@
 [
 	{
-		"dates": "June 2018 · Present",
-		"role": "Front-end Engineer",
-		"company": "Full Truck Alliance",
-		"description": "Responsible for customer service and CRM system front-end development.",
-		"logo": "/assets/images/experiences/fta.ico"
+		"dates": "Janvier 2024 . ce jour",
+		"role": "Développeur Freelance",
+		"company": "Freelance",
+		"description": "J'ai conçu et développé des sites web performants de A-Z, je me suis occupé du referencement SEO que ce soit technique ou sémantique. Je suis également intervenu sur des projets de développement des sites déjà existants, en apportant des améliorations et des optimisations à des sites vitrine et des site e-commerce."
 	},
 	{
-		"dates": "July 2015 · June 2018",
-		"role": "Front-end Engineer",
-		"company": "YOHO!",
-		"description": "Responsible for mobile front-end development of e-commerce platform.",
-		"logo": "/assets/images/experiences/yoho.ico"
+		"dates": "Janvier 2024 . février 2025",
+		"role": "Développeur Front-end UX/UI",
+		"company": "Groupe MRZ",
+		"description": "Développeur Front-end spécialisé en UX/UI chez groupe MRZ, je conçois et intègre des interfaces modernes, performantes et centré utilisateur toute en respectant les normes SEO. Maîtrise des technologies web."
 	},
 	{
-		"dates": "September 2014 · July 2015 ",
-		"role": "Node.JS Developer",
-		"company": "WuLian",
-		"description": "Intern, involved in the development of Internet of Things cloud systems.",
-		"logo": "/assets/images/experiences/wulian.ico"
+		"dates": "Juin 2021 . janvier 2024",
+		"role": "Développeur Web et Formateur",
+		"company": "Nir'Info",
+		"description": "En tant que développeur web et formateur chez Nir'Info, j'ai contribué à des solutions web innovantes tout en partageant activement mon expertise au sein de sessions de formation enrichissantes."
 	}
 ]

@@ -2,114 +2,114 @@
     {
         "name": "Igoblog",
         "description": "Une plateforme immersive qui partage des découvertes et expériences en Gironde.",
-        "image": "/assets/images/works/Igoblog.webp",
+        "image": "assets/images/works/Igoblog.webp",
         "url": "https://igoblog.fr/"
     },
     {
         "name": "Leslandines",
         "description": "Un site dédié à des hébergements uniques dans les Landes Girondines.",
-        "image": "/assets/images/works/Leslandines.webp",
+        "image": "assets/images/works/Leslandines.webp",
         "url": "https://www.leslandines.com/"
     },
     {
         "name": "Nir-info",
         "description": "Entreprise de Service du Numérique (ESN) établie à Madagascar depuis 2015.",
-        "image": "/assets/images/works/Nir-info.webp",
+        "image": "assets/images/works/Nir-info.webp",
         "url": "https://nir-info.mg/"
     },
    
     {
         "name": "Myexpat",
         "description": "Une plateforme spécialisée dans l'accompagnement des expatriés français souhaitant investir dans l'immobilier en France.",
-        "image": "/assets/images/works/myexpat.webp",
+        "image": "assets/images/works/myexpat.webp",
         "url": "https://www.myexpat.fr/"
     },
     {
         "name": "Investissement Locatif (site)",
         "description": "Ce site aide les investisseurs à simplifier leurs projets locatifs.",
-        "image": "/assets/images/works/IL.webp",
+        "image": "assets/images/works/IL.webp",
         "url": "https://investissement-locatif.com"
     },
     {
         "name": "IL (espace client)",
         "description": "Ce site aide les investisseurs à simplifier leurs projets locatifs.",
-        "image": "/assets/images/works/Investissement-locatif.webp",
+        "image": "assets/images/works/Investissement-locatif.webp",
         "url": "https://investissement-locatif.com"
     },
     {
         "name": "IL (espace Admin)",
         "description": "Ce site aide les investisseurs à simplifier leurs projets locatifs.",
-        "image": "/assets/images/works/IL-dashboard.webp",
+        "image": "assets/images/works/IL-dashboard.webp",
         "url": "https://investissement-locatif.com"
     },
     {
         "name": "IL nouveau (espace client)",
         "description": "Ce site aide les investisseurs à simplifier leurs projets locatifs.",
-        "image": "/assets/images/works/IL-client.webp",
+        "image": "assets/images/works/IL-client.webp",
         "url": "https://investissement-locatif.com"
     },
     
     {
         "name": "Beetravel",
         "description": "Dédiée aux services d'agence de voyage et de tourisme.",
-        "image": "/assets/images/works/beetravel.webp",
+        "image": "assets/images/works/beetravel.webp",
         "url": "https://github.com/RovaFitia"
     },
 
     {
         "name": "Génération Mada",
         "description": "ONG française qui aide les jeunes à Madagascar.",
-        "image": "/assets/images/works/Generation-mada.webp",
+        "image": "assets/images/works/Generation-mada.webp",
         "url": "https://generationmada.org/"
     },
 
     {
         "name": "Kurnos",
         "description": "Une agence dédiée à la service à la personne et Conciergerie.",
-        "image": "/assets/images/works/kurnos.webp",
+        "image": "assets/images/works/kurnos.webp",
         "url": "https://kurnos.org"
     },
     {
         "name": "As Agostu",
         "description": "Platforme d'une association dédiée à la musculation.",
-        "image": "/assets/images/works/as-agostu.webp",
+        "image": "assets/images/works/as-agostu.webp",
         "url": "https://as-agostu.fr/"
     },
     {
         "name": "Betarmo",
         "description": "Une agence experts en gestion de projets et suivi de chantier.",
-        "image": "/assets/images/works/betarmo.webp",
+        "image": "assets/images/works/betarmo.webp",
         "url": "https://betarmo.fr/"
     },
     
     {
         "name": "Securisafe",
         "description": "Spécialisée dans la sécurité privée, la surveillance, et la protection des biens.",
-        "image": "/assets/images/works/securisafe.webp",
+        "image": "assets/images/works/securisafe.webp",
         "url": "http://securisafe.fr/"
     },
     {
         "name": "MaaliHauteCouture",
         "description": "Styliste talentueuse, et créatrice de mode.",
-        "image": "/assets/images/works/maalihautecouture.webp",
+        "image": "assets/images/works/maalihautecouture.webp",
         "url": "http://maalihautecouture.com/"
     },
     {
         "name": "Nousgerons",
         "description": "Une plateforme qui simplifie la gestion locative de vos biens.",
-        "image": "/assets/images/works/nousgerons.webp",
+        "image": "assets/images/works/nousgerons.webp",
         "url": "https://nousgerons.com/"
     },
     {
         "name": "Virtuarchi",
         "description": "Une agence dédiée à la conception architecturale sur mesure.",
-        "image": "/assets/images/works/virtuarchi.webp",
+        "image": "assets/images/works/virtuarchi.webp",
         "url": "https://virtuarchi.fr"
     },
     {
         "name": "Mon Tableau Art",
         "description": "Une platforme qui transformez vos photos en œuvres d'art.",
-        "image": "/assets/images/works/mon-tableau-art.webp",
+        "image": "assets/images/works/mon-tableau-art.webp",
         "url": "http://mon-tableau.art/"
     }
 ]

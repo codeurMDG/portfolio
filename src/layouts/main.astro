@@ -2,15 +2,33 @@
 import Footer from "../components/footer.astro";
 import Header from "../components/header.astro";
 import SquareLines from "../components/square-lines.astro";
-const { title } = Astro.props;
+const { title = "Portfolio Rova", description = "Développeur web freelance spécialisé en WordPress et SEO, je crée des sites performants, responsive, soigné UI et UX , et référencé SEO", image = "/assets/images/rovafiti.webp", url = "https://rovafiti.netlify.app" } = Astro.props;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="fr-FR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Bienvenue sur mon portfolio" />
+    <meta name="description" content="Développeur web freelance spécialisé en WordPress et SEO, je crée des sites performants, responsive, soigné UI et UX , et référencé SEO" />
+
+    <!-- Web analytics -->
+    <!-- <script data-goatcounter="https://my-account.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script> -->
+
+    <!-- Open Graph tags -->
+    <!-- Balises Open Graph -->
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={url + image} />
+    <meta property="og:url" content={url} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Rova Fiti Portfolio" />
+
+    <!-- Pour Twitter (bonus) -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={url + image} />
     <title>{title}</title>
 
     <!-- Used to add dark mode right away, adding here prevents any flicker -->

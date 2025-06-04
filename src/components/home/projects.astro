@@ -16,7 +16,7 @@ import Project from "../project.astro";
     class="grid items-stretch w-full grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-7 mt-7"
   >
     {
-      projects.map((project) => {
+      projects.slice(0, 6).map((project) => {
         return (
           <Project
             name={project.name}
@@ -24,8 +24,18 @@ import Project from "../project.astro";
             image={project.image}
             url={project.url}
           />
-        )
+        );
       })
     }
   </div>
+
+  <div class="mt-10 flex items-center justify-center">
+    <a
+      href="/projets"
+      class={`inline-flex w-auto px-4 py-2 mt-5 text-xs font-semibold duration-300 ease-out border rounded-full bg-neutral-900 dark:bg-white dark:text-neutral-900 text-neutral-100 hover:border-neutral-700 border-neutral-900 dark:hover:border-neutral-300 hover:bg-white dark:hover:bg-black dark:hover:text-white hover:text-neutral-900 text-center`}
+    >
+      Voir tous mes projets
+    </a>
+  </div>
+
 </section>

@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@fancyapps/ui':
+        specifier: ^5.0.36
+        version: 5.0.36
       astro-iconify:
         specifier: ^1.2.0
         version: 1.2.0
@@ -538,6 +541,9 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [win32]
+
+  '@fancyapps/ui@5.0.36':
+    resolution: {integrity: sha512-GMygQzp1MBTFNTT6AzpbL6pXTD6bTxwjmmpI1fe8Ozmmiseu8/g82Sudl1YhcbZmS4bJgaBOF5THDFGpXQ1fDw==}
 
   '@iconify/tools@4.1.2':
     resolution: {integrity: sha512-q6NzLQYEN9zkDfcyBqD3vItHcZw97w/s++3H3TBxUORr57EfHxj6tOW6fyufDjMq+Vl56WXWaPx1csBPYlI5CA==}
@@ -3134,6 +3140,8 @@ snapshots:
   '@esbuild/win32-x64@0.21.2':
     optional: true
 
+  '@fancyapps/ui@5.0.36': {}
+
   '@iconify/tools@4.1.2':
     dependencies:
       '@iconify/types': 2.0.0
@@ -4017,7 +4025,7 @@ snapshots:
 
   extract-zip@2.0.1:
     dependencies:
-      debug: 4.3.4
+      debug: 4.4.1
       get-stream: 5.2.0
       yauzl: 2.10.0
     optionalDependencies:

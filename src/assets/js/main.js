@@ -173,3 +173,30 @@ window.closeMobileMenu = () => {
 	document.getElementById("menu").classList.add("hidden");
 	document.getElementById("mobileMenuBackground").classList.add("hidden");
 };
+
+// Modal functionality
+const openBtnModal = document.getElementById("openBtnModal");
+const closeBtnModal = document.getElementById("closeBtnModal");
+
+openBtnModal.addEventListener("click", (e) => {
+    e.preventDefault();
+    openModal();
+});
+
+closeBtnModal.addEventListener("click", (e) => {
+    e.preventDefault();
+    closeModal();
+});
+
+function openModal() {
+	const modal = document.getElementById('modal');
+	modal.classList.remove('hidden');
+	modal.classList.add('flex');
+}
+
+function closeModal() {
+	const modal = document.getElementById('modal');
+	modal.classList.add('hidden');
+	modal.classList.remove('flex');
+}
+

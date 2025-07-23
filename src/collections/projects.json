@@ -125,4 +125,18 @@
         "image": "assets/images/works/ms-france.webp",
         "url": "https://msfranceconcept.com/"
     }
+        ,
+    {
+        "name": "Euro Pro diesel",
+        "description": "spécialiste pour le contrôle et la réparation de turbo et injecteurs diesel, ainsi que le nettoyage de filtres",
+        "image": "assets/images/works/euro-pro-diesel.webp",
+        "url": "http://beige-flamingo-364298.hostingersite.com/"
+    }
+        ,
+    {
+        "name": "Viral-vertical",
+        "description": "Boostez l'efficacité des dépenses publicitaires sur les réseaux sociaux.",
+        "image": "assets/images/works/viral-vertical.webp",
+        "url": "https://viral-vertical.com/"
+    }
 ]
